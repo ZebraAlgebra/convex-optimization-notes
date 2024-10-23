@@ -1,0 +1,32 @@
+% \documentclass[11pt]{article}
+\documentclass[11pt, openany]{book}
+
+% Input user sty files
+\usepackage{sty/pkgs}
+\usepackage{sty/metadata}
+% End of user sty files
+
+% Input bib resources
+\addbibresource{bib/ref.bib}
+% End of bib resources
+
+\makeindex
+
+\begin{document}
+
+
+% % Input source of contents
+\maketitle
+
+%
+\tableofcontents
+\input{./src/placeholder.tex} % comment this out after we start writing actual stuffs
+% \input{./src/abs.tex}
+% \input{./src/00.tex}
+% \input{./src/01.tex}
+% \input{./src/02.tex}
+% % End of source of contents contents
+
+\printbibliography
+\end{document}
+
